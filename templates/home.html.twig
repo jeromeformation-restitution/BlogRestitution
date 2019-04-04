@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+{% block title %}Page d'accueil du Blog{% endblock %}
+{% block css %}
+{{ parent() }}
+    <link rel="stylesheet" href="{{ asset('css/hompage.css') }}">
+{% endblock %}
+{% block body %}
+<h1>home</h1>
+{% endblock %}
+
+
